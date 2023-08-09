@@ -1,0 +1,34 @@
+.full-box {
+    width: 50em;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.horizontal-flex {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.horizontal-flex p {
+    margin: 0;
+}
+
+.back-button {
+    width: 2em;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+
+    font-size: 1.25em;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(30, 30, 30);
+    border: 2px solid gray;
+}

@@ -1,0 +1,62 @@
+:root {
+  image-rendering: pixelated;
+
+  background-image: url(./assets/background.gif);
+  background-size: cover;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-box {
+  background-color: rgba(24, 24, 24, 0.9);
+  border: 5px solid rgb(20, 20, 20);
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.programs {
+  width: 35em;
+  padding: 2%;
+}
+
+.program {
+  width: 20%;
+  aspect-ratio: 1/1;
+
+  image-rendering: auto;
+  background-blend-mode: multiply;
+  border: 3px solid rgb(30, 30, 30);
+
+  text-decoration: none;
+  text-align: center;
+  overflow: hidden;
+  color: white;
+  display: grid;
+  place-items: center;
+}
+
+.program:hover {
+  transition: transform 0.2s ease-out;
+  transform: scale(1.1)
+}
+
+.sprite-downloader {
+  background: url(./assets/assetdownloader.png) rgba(24, 24, 24, 0.75);
+  background-size: contain;
+}
+
+.setanimation-finder {
+  background: url(./assets/setanimationfinder.png) rgba(24, 24, 24, 0.75);
+  background-size: contain;
+}
+
+.sprite-scaler {
+  background: url(./assets/spritescaler.png) rgba(24, 24, 24, 0.75);
+  background-size: contain;
+}
